@@ -9,62 +9,145 @@ body {
 }
 
 
+/* main resume container */
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+
 /* banner name at top */
-h1 {
+#name {
     font-size: 3em;
     color: #33485e;
     text-transform: uppercase;
     text-align: center;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 
 /* professional title */
-strong {
+#title {
     font-size: 1.5em;
     color: #33485e;
     text-transform: uppercase;
-    
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0 0 0;
 }
 
 
 /* section titles */
-h2 {
+.sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
     color: white;
     font-weight: 400;
+    margin: 20px 0 10px 0;
+    padding: 5px 0 5px 10px;
+    width: 100%;
+    min-width: 300px;
 }
 
 
 /* job titles */
-h3 {
+.jobtitle {
     font-size: 1.5em;
     font-weight: 600;
 }
 
 
 /* job organizations */
-h4 {
-    font-size: 1.5em;
+.organization {
+    font-size: 1.2em;
     font-weight: 400;
     font-style: italic;
 }
 
 
 /* job dates */
-h5 {
+.date {
     font-size: 1em;
     font-weight: 700;
+    margin: 2px 0 0 0;
 }
 
 
-/* paragraph text */
-p {
+/* job descriptions */
+.description {
+    margin: 10px 0;
+}
+
+
+/* contact menu */
+.menu {
+    margin: 10px 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* contact menu items */
+.menu li {
+    display: inline;
+    padding: 0 20px;
+}
+
+
+/* education list */
+#degrees {
+    margin: 5px 0 0 0;
+}
+
+
+/* skills list */
+#do {
+    margin: 5px 0 0 0;
 }
 
 
 /* list items */
 li {
     font-size: 1em;
+}
+
+
+/* headshot container */
+#headshot-container {
+    text-align: center;
+}
+
+
+/* headshot image */
+#headshot {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #33485e;
+}
+
+
+/* unvisited links */
+a:link {
+    font-weight: 600;
+    color: #0bc5f4;
+}
+
+
+/* visited links */
+a:visited {
+    color: #6e38c7;
+}
+
+
+/* links when mouse is over them */
+a:hover {
+    color: #33485e;
 }
